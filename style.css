@@ -1,0 +1,46 @@
+*{
+  padding:0;
+  margin:0;  
+}
+
+header{
+    background-color: white;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 12px 0;
+    max-width: 1200px;
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    color:#575757;
+    font-size: smaller;
+    padding:12px;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+button{
+    color: white ;
+    font-weight: bold;
+    background-color: #1D4ED8;
+    text-align:center;
+    padding: 0px 20px;
+    margin:5px;
+    border-radius: 5px;
+    cursor:pointer;
+    border:none;
+    
+    
+    
+
+}
