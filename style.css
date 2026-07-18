@@ -228,3 +228,117 @@ border-radius: 5px;
 .pro ul li{
     color:white;
 }
+
+    /*css code of placeholder section */
+ 
+
+.placeholder{
+    width: 1200px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.placeholder h2{
+    text-align: center;
+    font-size:50px;
+    margin-bottom: 15px;
+}
+
+.subtitle2{
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.pcontainer{
+    display:flex;
+    gap: 40px;
+
+}
+.highlights{
+    width:560px;
+    border:1px solid lightgray;
+    border-radius: 8px;
+    padding:30px;
+    background-color:#edeef0;
+    text-align: center;
+}
+.highlights h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.highlights hr{
+    margin-bottom: 25px;
+}
+
+.highlights p{
+    margin-bottom: 20px;
+    color: gray;
+}
+.highlight-text{
+    margin-top: 45px;
+
+}
+
+.gallery-btn{
+    margin-top: 25px;
+    padding:12px 25px;
+    background-color: #133492;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+
+.jobs{
+    width:560px;
+    border:1px solid lightgray;
+    border-radius: 8px;
+    padding:30px;
+    background-color:#122660;
+
+}
+.jobs h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.jobs hr{
+    margin-bottom: 25px;
+}
+.job-card{
+    border:1px solid lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.job-card h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:white;
+}
+.job-card p{
+    color:rgb(175, 170, 170);
+    margin-bottom: 10px;
+}
+.apply-btn{
+    padding:10px 20px;
+    background-color: #1D4ED8;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.highlights ul li{
+    font-size:24px;
+    margin-bottom:15px;
+    
+}
+.highlights ul{
+    width: 300px;
+    margin:auto;
+    color:#0e3061;
+}
