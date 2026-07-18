@@ -15,7 +15,7 @@ nav {
     max-width: 1200px;
 }
 
-ul{
+nav ul{
     display:flex;
     justify-content: space-between;
     list-style: none;
@@ -25,7 +25,7 @@ ul{
     padding:12px;
 }
 
-ul li {
+nav ul li {
     text-decoration: none;
     cursor: pointer;
 }
@@ -135,4 +135,96 @@ button{
     padding-left: 16px;
     padding-top:13px;
 
+}
+
+.pricing{
+    width:1200px;
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pricing h2{
+      
+    font-size: 50px;
+    margin-bottom: 15px;
+
+}
+.subtitle{
+    color:gray;
+    margin-bottom :50px;
+
+}
+
+.price-container{
+    display:flex;
+    gap:30px;
+}
+.price-card{
+    width:360px;
+    border:1px solid lightgray;
+    border-radius: 8px;
+    padding:25px;
+    text-align:left;
+}
+
+.pro{
+    background-color: #0f1c2e;
+    color:white;
+}
+.price-card h5{
+    color:gray;
+    margin-bottom: 10px;
+}
+.pro h5{
+    color:#4d8cff;
+}
+
+.price-card h1{
+    font-size:55px;
+    margin-bottom: 10px;
+}
+.person{
+    color:gray;
+    margin-bottom: 20px;
+
+}
+.pro .person{
+    color:white;
+}
+
+.price-card hr{
+    margin-bottom: 20px;
+    border: 1px solid gray;
+}
+.price-card ul{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.price-card ul li{
+    color:rgb(71, 71, 71);
+    margin-bottom: 12px;
+}
+
+.btn1{
+ width:100%;
+ padding: 12px;   
+background-color:white;
+color:#2f5cff;
+border:1px solid #2f5cff;
+border-radius: 5px;
+
+
+}
+.btn2{
+    width:100%;
+    padding:12px;
+    background-color: #2f5cff;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+.pro ul li{
+    color:white;
 }
