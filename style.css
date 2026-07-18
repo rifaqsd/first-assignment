@@ -83,3 +83,56 @@ button{
     font-size: 18px;
     cursor:pointer;
 }
+
+.speakers{
+    width: 1200px;
+    margin:auto;
+    margin-top: 80px;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+.speaker-container{
+    display:grid;
+    grid-template-columns: 570px 570px;
+    column-gap: 60px;
+    row-gap: 30px;
+
+}
+
+.card{
+    width:570px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+
+.card img{
+    width:570px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.card h3{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 24px;
+}
+.card p{
+    margin-top:10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    color:gray;
+}
+.card h6{
+
+    color:#2d5cff;
+    padding-left: 16px;
+    padding-top:13px;
+
+}
