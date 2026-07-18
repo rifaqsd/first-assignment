@@ -27,6 +27,7 @@ ul{
 
 ul li {
     text-decoration: none;
+    cursor: pointer;
 }
 
 button{
@@ -39,8 +40,46 @@ button{
     border-radius: 5px;
     cursor:pointer;
     border:none;
-    
-    
-    
 
+}
+
+.banner{
+    width:100%;
+    height: 650px;
+    background-image: url("./banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.text h1{
+    color:white;
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+.text p{
+    width: 900px;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 280px;
+}
+.btn{
+    padding:15px 35px;
+    background-color: #2d5cff;
+    color: white;
+    border:none;
+    border-radius:5px;
+    font-size: 18px;
+    cursor:pointer;
 }
