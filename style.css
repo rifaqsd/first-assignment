@@ -229,7 +229,7 @@ border-radius: 5px;
     color:white;
 }
 
-    /*css code of placeholder section */
+    /*css code of placeholder challenge section */
  
 
 .placeholder{
@@ -341,4 +341,36 @@ border-radius: 5px;
     width: 300px;
     margin:auto;
     color:#0e3061;
+}
+
+/*placeholder challenge section ends here*/
+
+footer{
+    background-color: #0f1c2e;
+    padding: 40px 0;
+}
+
+.footer-top{
+    width: 1200px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links a{
+    
+    color: #9db4f4;
+    margin-left: 20px;
+
+}
+footer hr{
+    width:1200px;
+    margin:30px auto;
+    border:1px solid gray;
+}
+
+.copyright{
+    text-align: center;
+    color:lightgray;
+    font-size: 16px;
 }
